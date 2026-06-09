@@ -1,0 +1,15 @@
+Algoritmo selectiva_simple
+	//averiguar el mayor de dos numeros.
+	Definir num1, num2 Como Entero;
+	Escribir "ingresar el primer numero:";
+	Leer num1;
+	Escribir "ingresar el segundo numero:";
+	leer num2;
+	//verificar el mayor
+	si num1 > num2 Entonces
+		Escribir "El mayor es:", num1;
+	FinSi
+	si num2 > num1 Entonces
+		Escribir "el mayor es:", num2;
+	FinSi
+FinAlgoritmo
